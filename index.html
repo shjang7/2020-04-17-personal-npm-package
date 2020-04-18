@@ -12,7 +12,7 @@
       width: 400px;
       margin: 0 auto;
     }
-    div:not(#parent) {
+    .parent div {
       border: 1px solid rgba(33, 220, 33);
       margin: 1rem 0;
       padding: .3rem;
@@ -34,7 +34,7 @@
 </head>
 <body>
   <h2>Is every test working well?</h2>
-  <div id="parent"></div>
+  <div id="parent" class="parent"></div>
   <input type="text" placeholder="first input box, cursor focused on here"/>
   <input type="text" placeholder="second input box"/>
   <textarea class="sample1" placeholder="first resizable textarea"></textarea>
